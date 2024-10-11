@@ -1,0 +1,100 @@
+.slider {
+  overflow: hidden;
+  margin: 0 auto;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    transition: transform 0.5s;
+
+    @include onTablet {
+      gap: 20px;
+    }
+
+    @include onDesktop {
+      overflow: visible;
+
+      @include page-grid;
+
+      gap: 30px;
+    }
+  }
+
+  &__item {
+    @include onDesktop {
+      grid-column: span 4;
+      transition: transform 0.5s;
+
+      &--big {
+        grid-column: span 8;
+      }
+
+      &--wide {
+        grid-column: span 8;
+
+        .slider__img {
+          height: 360px;
+        }
+      }
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  &__img {
+    display: block;
+  }
+
+  &__img img {
+    width: 280px;
+    height: 410px;
+    object-fit: cover;
+
+    @include onTablet {
+      width: 340px;
+      height: 543px;
+    }
+
+    @include onDesktop {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+
+    @include onDesktop {
+      display: none;
+    }
+  }
+
+  &__buttons-item {
+    display: flex;
+  }
+
+  &__buttons-btn {
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    background-color: #e5e6eb;
+
+    &--active {
+      background-color: $color-accent;
+    }
+  }
+}

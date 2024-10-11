@@ -16,8 +16,8 @@ The website is designed with a modern layout and a responsive interface for seam
 - SEO Best Practices
 
 ## Links
-    - [MOCKUP LINK](https://github.com/ivankovbohdan/museum-landing)
-    - [DEMO LINK](https://ivankovbohdan.github.io/museum-landing/)
+- [MOCKUP LINK](https://github.com/ivankovbohdan/museum-landing)
+- [DEMO LINK](https://ivankovbohdan.github.io/museum-landing/)
 
 ## Launch Instructions
 1. `npm i`

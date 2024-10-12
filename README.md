@@ -16,7 +16,7 @@ The website is designed with a modern layout and a responsive interface for seam
 - SEO Best Practices
 
 ## Links
-- [MOCKUP LINK](https://github.com/ivankovbohdan/museum-landing)
+- [MOCKUP LINK](https://www.figma.com/design/cRBCqE06cDrY3s4jX7h3iY/%D0%9D%D0%90%D0%9C%D0%A3)
 - [DEMO LINK](https://ivankovbohdan.github.io/museum-landing/)
 
 ## Launch Instructions

@@ -20,5 +20,7 @@ The website is designed with a modern layout and a responsive interface for seam
 - [DEMO LINK](https://ivankovbohdan.github.io/museum-landing/)
 
 ## Launch Instructions
-1. `npm i`
-2. `npm start`
+1. `git clone https://github.com/ivankovbohdan/museum-landing.git`
+2. Ensure Node.js version 20 is installed: `node -v`
+3. `npm i`
+4. `npm start`
